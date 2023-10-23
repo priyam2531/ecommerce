@@ -11,5 +11,15 @@ class AppMyColor{
   static Color grey = const Color(0XFFF0F0F0);
   static Color darkgrey = const Color(0XFFEBEBEB);
   static Color liteblue = const Color(0XFFEEECFA);
+  static Color liteorange = const Color(0XFFFBF8F0);
+  static Color orange = const Color(0XFFFDEBB3);
+  static Color litesky = const Color(0XFFF4F8FA);
+  static Color sky2 = const Color(0XFFC9E7F7);
+  static Color liteblue2 = const Color(0XFFEEECFA);
+  static Color blue = const Color(0XFFEEECFA);
+  static Color litepink = const Color(0XFFF7E7ED);
+  static Color pink = const Color(0XFFE16E9B);
+  static Color litebatli = const Color(0XFFE9F3ED);
+  static Color batli = const Color(0XFF7FC499);
 
 }

@@ -11,7 +11,7 @@ static Icon phone =  Icon(CupertinoIcons.device_phone_portrait,color: AppMyColor
 static Icon eye =  Icon(Icons.remove_red_eye,color: AppMyColor.purple);
 static Icon home =  Icon(Icons.home_outlined,color: AppMyColor.purple);
 static Icon search =  Icon(Icons.manage_search,color: AppMyColor.purple);
-static Icon search1 =  Icon(Icons.search,color: AppMyColor.purple);
+static Icon search1 =  Icon(Icons.search,color: AppMyColor.purple, size: 35,);
 static Icon shop =  Icon(Icons.shopping_cart_outlined,color: AppMyColor.purple);
 static Icon like =  Icon(Icons.favorite_border,color: AppMyColor.purple);
 }
