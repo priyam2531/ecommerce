@@ -14,6 +14,7 @@ class ProductPage extends StatefulWidget {
 }
 
 class _ProductPageState extends State<ProductPage> {
+  List image=['assest/fruits.jpeg','assest/gopal.jpeg','assest/jaljeera.jpeg','assest/kurkure.jpg','assest/laptop.jpg','assest/lays.png','assest/laptop.jpg','assest/maggi.png'];
   List name =['Fruits','Gopal','Jaljira','Kurkure','Laptop','Lays','Lenovo','Maggie'];
   @override
   Widget build(BuildContext context) {
@@ -66,15 +67,14 @@ class _ProductPageState extends State<ProductPage> {
                                 height: 90,
                                 width: 90,
                                 decoration: BoxDecoration(
-                                    shape: BoxShape.circle,
-                                    color: Colors.white,
+                                    color: AppMyColor.liteblue,
                                     ),
                               ),
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
                                   name[index],
-                                  style: TextStyle(color: Colors.white, fontSize: 25),
+                                  style: TextStyle(fontSize: 25),
                                 ),
                               ),
                             ],
